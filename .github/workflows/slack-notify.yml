@@ -15,3 +15,4 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_TITLE: ${{ secrets.SLACK_TITLE }}
+        SLACK_USERNAME: ${{ secrets.SLACK_USERNAME }}
